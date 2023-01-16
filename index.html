@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -8,59 +8,7 @@
     <title>MQ diplom</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-
-<!--POPUP-->
-
-<div class="popup">
-    <div class="popup__container">
-        <h3 class="feedback__title">Ваш ФИДБЕк</h3>
-        <div class="feedback__content">
-            <form class="feedback__form">
-                <div class="feedback__row">
-                    <label class="select-group">
-                        <span class="form-label">Как часто вы заходите на сайт?</span>
-                        <select class="select">
-                            <option selected>Почти каждый день</option>
-                            <option>Раз в несколько дней</option>
-                            <option>Раз в несколько недель</option>
-                            <option>Несколько раз в год</option>
-                        </select>
-                    </label>
-                </div>
-
-
-                <div class="form-group">
-                    <span class="form-hint">Вы подписаны на e-mail рассылку?</span>
-                    <label class="radio-group">
-                        <input type="radio" class="radio" name="radio-group" required>
-                        <span class="radio-group-text">Да</span>
-                    </label>
-                    <label class="radio-group">
-                        <input type="radio" class="radio" name="radio-group" required>
-                        <span class="radio-group-text">Нет</span>
-                    </label>
-                </div>
-
-                <div class="form-group">
-                    <label class="field-group">
-                        <span class="field-label">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
-                        <textarea class="field-textarea" placeholder="Может, больше рецептов?" required></textarea>
-                    </label>
-                </div>
-
-                <button class="send__button" type="submit">отправить<span class="hidden">кнопка отправить</span>
-                </button>
-            </form>
-        </div>
-        <button class="popup__close" type="button">
-            <span class="hidden">кнопка закрытия окна</span>
-        </button>
-    </div>
-</div>
-
-
 <body>
-<!-- header -->
 <header class="header">
     <div class="header-container">
         <div class="container">
@@ -117,6 +65,7 @@
                 </ul>
                 <h2 class="trend-content">
                     <a class="new-trend-link" href="#">Сейчас в тренде: сад на подоконнике</a>
+
                 </h2>
             </div>
         </article>
@@ -194,7 +143,7 @@
                             проснуться на рассвете</a>
                     </h2>
                     <div class="date-autor">
-                        <time class="entry-datetime">10 июня 2019</time>
+                        <time datetime="2019-06-10" class="entry-datetime">10 июня 2019</time>
                         <a class="author">Неизвестный автор</a>
                     </div>
                 </div>
@@ -225,7 +174,7 @@
                             домашних условиях</a>
                     </h2>
                     <div class="date-autor">
-                        <time class="entry-datetime">10 июня 2019</time>
+                        <time datetime="2019-06-10" class="entry-datetime">10 июня 2019</time>
                         <a class="author">Неизвестный автор</a>
                     </div>
                 </div>
@@ -253,7 +202,7 @@
                             фестивали этого лета</a>
                     </h2>
                     <div class="date-autor">
-                        <time class="entry-datetime">10 июня 2019</time>
+                        <time datetime="2019-06-10" class="entry-datetime">10 июня 2019</time>
                         <a class="author">Неизвестный автор</a>
                     </div>
                 </div>
@@ -284,7 +233,7 @@
                             кулинарии</a>
                     </h2>
                     <div class="date-autor">
-                        <time class="entry-datetime">10 июня 2019</time>
+                        <time datetime="2019-06-10" class="entry-datetime">10 июня 2019</time>
                         <a class="author">Неизвестный автор</a>
                     </div>
                 </div>
@@ -318,7 +267,7 @@
                             подушках для интерьера</a>
                     </h2>
                     <div class="date-autor">
-                        <time class="entry-datetime">10 июня 2019</time>
+                        <time datetime="2019-06-10" class="entry-datetime">10 июня 2019</time>
                         <a class="author">Неизвестный автор</a>
                     </div>
                 </div>
@@ -339,7 +288,7 @@
                     <img class="image-new" src="images/2.jpg"
                          alt="человек гуляет по пляжу">
                     <div class="article-text">
-                        <time class="datetime">14 июня 2019</time>
+                        <time datetime="2019-06-14" class="datetime">14 июня 2019</time>
                         <h3 class="new-header">
                             <a class="new-header-link" href="#0">10 мест, ради которых
                                 стоит проснуться</a>
@@ -351,7 +300,7 @@
                     <img class="image-new" src="images/151.jpg"
                          alt="йога на пляже">
                     <div class="article-text">
-                        <time class="datetime">14 июня 2019</time>
+                        <time datetime="2019-06-14" class="datetime">14 июня 2019</time>
                         <h3 class="new-header">
                             <a class="new-header-link" href="#0">Йога для домашних</a>
                         </h3>
@@ -362,7 +311,7 @@
                     <img class="image-new" src="images/45.jpg"
                          alt="интерьер комнаты">
                     <div class="article-text">
-                        <time class="datetime">14 июня 2019</time>
+                        <time datetime="2019-06-14" class="datetime">14 июня 2019</time>
                         <h3 class="new-header">
                             <a class="new-header-link" href="#0">как мы превратили классное место в балкон</a>
                         </h3>
@@ -373,7 +322,7 @@
                     <img class="image-new" src="images/501.jpg"
                          alt="сервировка стола">
                     <div class="article-text">
-                        <time class="datetime">14 июня 2019</time>
+                        <time datetime="2019-06-14" class="datetime">14 июня 2019</time>
                         <h3 class="new-header">
                             <a class="new-header-link" href="#0">Кулинарный подход к науке</a>
                         </h3>
@@ -384,7 +333,7 @@
                     <img class="image-new" src="images/7.jpg"
                          alt="девушки с распущенными волосами">
                     <div class="article-text">
-                        <time class="datetime">14 июня 2019</time>
+                        <time datetime="2019-06-14" class="datetime">14 июня 2019</time>
                         <h3 class="new-header">
                             <a class="new-header-link" href="#0">лучшие прически для распущенных волос</a>
                         </h3>
@@ -485,7 +434,7 @@
             </picture>
             <div class="product-info">
                 <h3 class="product-title">
-                    <a class="product-title-link" href="#0">подушки на диван</a>
+                    <a class="product-title-link">подушки на диван</a>
                 </h3>
                 <div class="product-description">
                     <p>Набор из двух подушек с модными принтами. Видео о создании <a class="product-link"
@@ -511,7 +460,7 @@
             </picture>
             <div class="product-info">
                 <h3 class="product-title">
-                    <a class="product-title-link" href="#">Кукла «Зайчик»</a>
+                    <a class="product-title-link">Кукла «Зайчик»</a>
                 </h3>
                 <div class="product-description">
                     <p>Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a class="product-link"
@@ -536,7 +485,7 @@
             </picture>
             <div class="product-info">
                 <h3 class="product-title">
-                    <a class="product-title-link" href="#">Шестиугольная рамка</a>
+                    <a class="product-title-link">Шестиугольная рамка</a>
                 </h3>
                 <div class="product-description">
                     <p>Необычная рамка для украшения дома из видео <a class="product-link" href="#">«Как сделать
@@ -591,5 +540,53 @@
         </div>
     </div>
 </footer>
+
+<!--POPUP-->
+<div class="popup">
+    <div class="popup__container">
+        <h3 class="feedback__title">Ваш ФИДБЕк</h3>
+        <div class="feedback__content">
+            <form class="feedback__form">
+                <div class="feedback__row">
+                    <label class="select-group">
+                        <span class="form-label">Как часто вы заходите на сайт?</span>
+                        <select class="select">
+                            <option selected>Почти каждый день</option>
+                            <option>Раз в несколько дней</option>
+                            <option>Раз в несколько недель</option>
+                            <option>Несколько раз в год</option>
+                        </select>
+                    </label>
+                </div>
+
+
+                <div class="form-group">
+                    <span class="form-hint">Вы подписаны на e-mail рассылку?</span>
+                    <label class="radio-group">
+                        <input type="radio" class="radio" name="radio-group" required>
+                        <span class="radio-group-text">Да</span>
+                    </label>
+                    <label class="radio-group">
+                        <input type="radio" class="radio" name="radio-group" required>
+                        <span class="radio-group-text">Нет</span>
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label class="field-group">
+                        <span class="field-label">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+                        <textarea class="field-textarea" placeholder="Может, больше рецептов?" required></textarea>
+                    </label>
+                </div>
+
+                <button class="send__button" type="submit">отправить<span class="hidden">кнопка отправить</span>
+                </button>
+            </form>
+        </div>
+        <button class="popup__close" type="button">
+            <span class="hidden">кнопка закрытия окна</span>
+        </button>
+    </div>
+</div>
 </body>
 </html>
