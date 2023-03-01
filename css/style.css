@@ -1000,7 +1000,6 @@ body {
     }
 
     .trend-news {
-        min-width: calc(50% - 3px);
         max-width: calc(50% - 3px);
         margin-bottom: 3px;
     }
@@ -1451,13 +1450,7 @@ body {
     }
 }
 
-@media (min-width: 641px) and (orientation: landscape) {
-    .trend-news {
-        width: calc(25% - 3px);
-    }
-}
-
-@media (max-width: 1199px) and (orientation: landscape) {
+@media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
     .trend-news {
         width: calc(25% - 3px);
     }
