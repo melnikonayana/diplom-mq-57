@@ -424,7 +424,7 @@ body {
     margin-top: 65px;
     margin-left: auto;
     margin-right: auto;
-    min-width: 1170px;
+    max-width: 1170px;
     width: 72%;
 }
 
@@ -745,7 +745,7 @@ body {
 
 .products {
     /*margin-top: 65px;*/
-    min-width: 1170px;
+    max-width: 1170px;
     width: 72%;
     margin-left: auto;
     margin-right: auto;
@@ -774,6 +774,7 @@ body {
     justify-content: space-between;
     box-sizing: border-box;
     margin-top: 30px;
+    max-width: 1170px;
 }
 
 .product {
@@ -862,7 +863,7 @@ body {
     list-style-type: none;
     align-items: center;
     justify-content: center;
-    min-width: 1170px;
+    max-width: 1170px;
     width: 72%;
     background-color: #f4f7f6;
     margin-left: auto;
@@ -1453,6 +1454,14 @@ body {
 @media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
     .trend-news {
         width: calc(25% - 3px);
+    }
+
+    .trend-text {
+        padding: 25px;
+    }
+
+    .trend-content {
+        overflow-wrap: anywhere;
     }
 }
 
